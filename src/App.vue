@@ -1,20 +1,22 @@
 <template>
   <div id="app">
-
-    <Login> </Login>
-
+    <Base> </Base>
+    <!-- <Login>  </Login> -->
+  
 
   </div>
 </template>
 
 <script>
-import Login from './components/Login.vue'
+// import Login from './components/Login.vue'
+import Base from './components/base.vue'
 
 
 export default {
   name: 'App',
   components: {
-    Login
+    // Login,
+    Base,
   
   }
 }

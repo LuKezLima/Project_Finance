@@ -34,14 +34,14 @@
 
       <div class="form bg-white rounded-br-lg rounded-tr-lg">
           <div class="form-block flex justify-around items-center flex-col h-full">
-              <h1 class="welcome text-3xl">Welcome to FinDev</h1>
+              <h1 class="welcome text-4xl">Welcome to <strong>FinDev</strong> </h1>
               <form action="" class="flex justify-between items-center flex-col gap-7 w-4/6">
               
-                  <input  type="text" placeholder="Email" id="icon" class="input w-full outline-none py-1">
-                  <input type="text" placeholder="Senha" class="input w-full outline-none py-1">
+                  <input  type="text" required="required" placeholder="Email" id="email" class="input w-full outline-none py-1">
+                  <input type="password" required="required" placeholder="Senha" id="password" class="input w-full outline-none py-1">
 
               </form>
-              <button class=" w-5/12 py-2  rounded container text-white">Login</button>
+              <button class=" w-5/12 py-2  rounded-lg container text-white">Login</button>
 
           </div>
       </div>
@@ -79,7 +79,7 @@ main {
 }
 
 .city {
-  width: 75%;
+  width: 65%;
   height: auto;
   object-fit: cover;
   background-size: cover;
@@ -97,10 +97,17 @@ main {
 }
 
 
-#icon{
-background-image:url(https://cdn4.iconfinder.com/data/icons/36-slim-icons/87/calender.png); 
+#email{
+background-image:url(https://i.imgur.com/b75SOCp.png); 
 background-repeat: no-repeat; 
 background-position: 2px 3px;
-background-size: 30px;
+background-size: 20px;
+}
+
+#password{
+background-image:url(https://i.imgur.com/stwDMV7.png); 
+background-repeat: no-repeat; 
+background-position: 4px 3px;
+background-size: 17px;
 }
 </style>
