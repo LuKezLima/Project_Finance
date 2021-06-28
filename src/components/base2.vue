@@ -1,7 +1,7 @@
 <template>
-<div class="body w-screen h-screen ">
-  <div class="nav  w-full h-screen  shadow-2xl">
-      <header class="header w-full shadow-2xl">
+<div class="body">
+  <div class="nav  w-full h-full shadow-2xl">
+      <header class="header w-full h-full shadow-2xl">
           <nav class="flex w-full h-full justify-between items-center">
               <h1 class=" text-3xl ml-8 text-white">Welcome, {{name}}</h1>
 
@@ -60,6 +60,7 @@ export default {
 
 .body{
     background-color: #2F0F5C;
+    height: 11vh;
 }
 
 .active{
